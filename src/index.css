@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+@layer components {
+  .base-button {
+    @apply bg-slate-900
+    px-4
+    py-2
+    rounded-lg
+    hover:border-slate-400
+    border
+    border-transparent
+    active:bg-slate-700
+    text-neutral-200;
+  }
+}
